@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Nunito:ital,wght@0,200;0,500;0,600;1,200;1,500;1,600&family=Poppins:ital,wght@0,200;0,500;0,600;0,700;1,100;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.808), rgba(255, 255, 255, 0)), url("img/cover.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-contents {
+    width: 90vw;
+    height: 100vh;
+    /* background: #000; */
+    margin: 0 auto;
+}
+
+.hero-contents h1,p{
+    text-align: center;
+    color: blanchedalmond;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    
+}
+
+.hero-contents h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    padding-top: 100px;
+    padding-bottom:20px;
+}
+.hero-contents p{
+    font-size: 2rem;
+}
+.hero-contents button{
+    margin: 30px 0 20px 40vw;
+    padding: 20px 35px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background: rgb(0, 123, 206);
+    color: bisque;
+    border: none;
+    border-radius: 20px;
+}
+.hero-contents button:hover{
+    color: white;
+    background: rgb(138, 138, 138);
+    cursor: pointer;
+}
