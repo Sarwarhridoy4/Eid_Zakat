@@ -11,8 +11,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Nunito', sans-serif;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
-
+/* //Hero start// */
 .hero {
     width: 100vw;
     height: 100vh;
@@ -62,3 +63,57 @@ body {
     background: rgb(138, 138, 138);
     cursor: pointer;
 }
+
+/* Hero done! */
+
+
+/* section-2 start */
+
+.section-2{
+    width: 100vw;
+    overflow: hidden;
+    background: #FFEBCD;
+    display: flex;
+    padding: 20px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-2_left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section-2_left h2{
+    text-align: center;
+    font-size: 2em;
+    color: #2657D7;
+}
+.section-2_left p{
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(151, 205, 252);
+    padding: 10px 20px;
+    font-weight: 700;
+
+}
+.section-2_left a{
+    text-decoration: none;
+    background: linear-gradient(to left, rgb(31, 119, 190), rgb(41, 69, 228));
+    color: aliceblue;
+    padding: 20px 25px;
+    border-radius: 10px;
+}
+.section-2_right{
+    display: flex;
+    width: 50%;
+}
+.section-2_right video{
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* section-2 ends */
