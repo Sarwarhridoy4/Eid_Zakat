@@ -13,6 +13,7 @@ body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
+
 /* //Hero start// */
 .hero {
     width: 100vw;
@@ -31,23 +32,26 @@ body {
     margin: 0 auto;
 }
 
-.hero-contents h1,p{
+.hero-contents h1,
+p {
     text-align: center;
     color: blanchedalmond;
     font-family: 'Edu VIC WA NT Beginner', cursive;
-    
+
 }
 
 .hero-contents h1 {
     font-weight: 700;
     font-size: 4rem;
     padding-top: 100px;
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
-.hero-contents p{
+
+.hero-contents p {
     font-size: 2rem;
 }
-.hero-contents button{
+
+.hero-contents button {
     margin: 30px 0 20px 40vw;
     padding: 20px 35px;
     font-family: 'Edu VIC WA NT Beginner', cursive;
@@ -58,7 +62,8 @@ body {
     border: none;
     border-radius: 20px;
 }
-.hero-contents button:hover{
+
+.hero-contents button:hover {
     color: white;
     background: rgb(138, 138, 138);
     cursor: pointer;
@@ -69,51 +74,118 @@ body {
 
 /* section-2 start */
 
-.section-2{
+.section-2 {
     width: 100vw;
+    height: 95vh;
     overflow: hidden;
     background: #FFEBCD;
     display: flex;
     padding: 20px 20px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
 }
 
-.section-2_left{
+.section-2_left {
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.section-2_left h2{
+
+.section-2_left h2 {
     text-align: center;
     font-size: 2em;
     color: #2657D7;
 }
-.section-2_left p{
+
+.section-2_left p {
     text-align: center;
     font-size: 1.2em;
     color: rgb(151, 205, 252);
     padding: 10px 20px;
     font-weight: 700;
-
 }
-.section-2_left a{
+
+.section-2_left a {
     text-decoration: none;
     background: linear-gradient(to left, rgb(31, 119, 190), rgb(41, 69, 228));
     color: aliceblue;
     padding: 20px 25px;
     border-radius: 10px;
 }
-.section-2_right{
+
+.section-2_right {
     display: flex;
     width: 50%;
 }
-.section-2_right video{
+
+.section-2_right video {
     display: flex;
     width: 100%;
     border-radius: 10px;
 }
 
 /* section-2 ends */
+/* section-3 start */
+
+.section-3 {
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+    background: #FFEBCD;
+    display: flex;
+    padding: 20px 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.section-3_right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.section-3_right h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #2657D7;
+}
+
+.section-3_right p {
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(151, 205, 252);
+    padding: 10px 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.section-3_right a {
+    text-decoration: none;
+    background: linear-gradient(to left, rgb(31, 119, 190), rgb(41, 69, 228));
+    color: aliceblue;
+    padding: 20px 25px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.section-3_right {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.section-3_left img {
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* section-3 ends */
