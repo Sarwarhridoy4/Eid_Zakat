@@ -228,7 +228,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 0 10px;
     border-radius: 10px;
 }
@@ -238,10 +238,10 @@ p {
 }
 
 .card-icon img {
-    width: 100%;
+    width: 50px;
 }
 
-,
+
 .card-text {
     width: 50%;
 }
